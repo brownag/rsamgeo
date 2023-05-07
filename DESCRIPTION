@@ -1,7 +1,7 @@
 Package: rsamgeo
 Type: Package
 Title: Segment Geospatial Data with the Segment Anything Model (SAM) 
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: person(given="Andrew", family="Brown", email="brown.andrewg@gmail.com", role = "cre")
 Maintainer: Andrew Brown <brown.andrewg@gmail.com>
 Description: Uses 'reticulate' to call 'Python' tools for segmenting geospatial data with the 'Segment Anything Model' (SAM).
@@ -26,4 +26,3 @@ Language: en-US
 Encoding: UTF-8
 RoxygenNote: 7.2.3
 Roxygen: list(markdown = TRUE)
-VignetteBuilder: knitr
