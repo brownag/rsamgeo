@@ -1,0 +1,29 @@
+Package: rsamgeo
+Type: Package
+Title: Segment Geospatial Data with the Segment Anything Model (SAM) 
+Version: 0.0.0.9000
+Authors@R: person(given="Andrew", family="Brown", email="brown.andrewg@gmail.com", role = "cre")
+Maintainer: Andrew Brown <brown.andrewg@gmail.com>
+Description: Uses 'reticulate' to call 'Python' tools for segmenting geospatial data with the 'Segment Anything Model' (SAM).
+    The 'segment-geospatial' package draws its inspiration from 'segment-anything-eo' repository authored by Aliaksandr Hancharenka.
+License: MIT + file LICENSE
+Depends: R (>= 4.1.0)
+SystemRequirements: Python (>= 3)
+Imports: 
+  reticulate
+Config/reticulate:
+  list(
+    packages = list(
+      list(package = "segment-geospatial")
+    )
+  )
+Suggests: 
+  terra
+LazyData: true
+URL: https://github.com/brownag/rsamgeo
+BugReports: https://github.com/brownag/rsamgeo/issues
+Language: en-US
+Encoding: UTF-8
+RoxygenNote: 7.2.3
+Roxygen: list(markdown = TRUE)
+VignetteBuilder: knitr
